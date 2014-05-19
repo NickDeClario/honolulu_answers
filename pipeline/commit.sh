@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+source $HOME/.rvm/scripts/rvm
+
 gem install opendelivery bundler
 
 export SHA=`ruby -e 'require "opendelivery"' -e "puts OpenDelivery::Domain.new('$region').get_property '$sdb_domain','$pipeline_instance_id', 'SHA'"`
