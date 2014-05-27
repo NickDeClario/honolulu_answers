@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
+
 source $HOME/.rvm/scripts/rvm
+rvm install ruby-1.9.3-p484
 
 gem install opendelivery bundler
 
