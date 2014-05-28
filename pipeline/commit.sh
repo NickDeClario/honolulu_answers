@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+ls -la $HOME
+
 echo 0
 source $HOME/.rvm/scripts/rvm
 echo 1
