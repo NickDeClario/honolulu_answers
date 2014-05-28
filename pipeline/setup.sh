@@ -1,4 +1,4 @@
-#\curl -sSL https://get.rvm.io | bash
+\curl -sSL https://get.rvm.io | bash
 source $HOME/.rvm/scripts/rvm
 source ~/.profile
 
