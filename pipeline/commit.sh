@@ -1,6 +1,9 @@
 #!/bin/bash -e
 
 ls -la $HOME
+ls -la $HOME/.rvm
+ls -la $HOME/.rvm/scripts
+ls -la $HOME/.rvm/scripts/rvm
 
 echo 0
 source $HOME/.rvm/scripts/rvm
