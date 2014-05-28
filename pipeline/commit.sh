@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+echo is this thing on
 
 source $HOME/.rvm/scripts/rvm
 rvm install ruby-1.9.3-p484
