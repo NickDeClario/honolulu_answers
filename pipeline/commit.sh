@@ -1,12 +1,5 @@
-#!/bin/bash -e
-
-ls -la $HOME
-ls -la $HOME/.rvm
-ls -la $HOME/.rvm/scripts
-ls -la $HOME/.rvm/scripts/rvm
-
 echo 0
-source $HOME/.rvm/scripts/rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 echo 1
 rvm install ruby-1.9.3-p484
 echo 2
