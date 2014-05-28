@@ -1,3 +1,5 @@
+#!/bin/bash -l
+
 echo -1
 PATH=~/.rvm/bin:$PATH
 echo 0
